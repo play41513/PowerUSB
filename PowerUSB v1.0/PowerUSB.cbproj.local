@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/10/24 11:29:16.038.cbproj,C:\Users\max\Documents\RAD Studio\Projects\Project1.cbproj=C:\Users\max\Documents\RAD Studio\Projects\PowerUSB.cbproj</Transaction>
+    <Transaction>2022/10/24 11:29:25.984.cpp,C:\Users\max\Documents\RAD Studio\Projects\Unit1.cpp=C:\Users\max\Documents\RAD Studio\Projects\main.cpp</Transaction>
+    <Transaction>2022/10/24 11:29:25.984.h,C:\Users\max\Documents\RAD Studio\Projects\Unit1.h=C:\Users\max\Documents\RAD Studio\Projects\main.h</Transaction>
+    <Transaction>2022/10/24 11:29:25.984.dfm,C:\Users\max\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\max\Documents\RAD Studio\Projects\main.dfm</Transaction>
+    <Transaction>2022/10/24 11:43:52.461.cpp,C:\Users\max\Documents\RAD Studio\Projects\main.cpp=D:\SourceCode\BCB\Zebra\PowerUSB v1.0\main.cpp</Transaction>
+    <Transaction>2022/10/24 11:43:52.461.h,C:\Users\max\Documents\RAD Studio\Projects\main.h=D:\SourceCode\BCB\Zebra\PowerUSB v1.0\main.h</Transaction>
+    <Transaction>2022/10/24 11:43:52.461.dfm,C:\Users\max\Documents\RAD Studio\Projects\main.dfm=D:\SourceCode\BCB\Zebra\PowerUSB v1.0\main.dfm</Transaction>
+    <Transaction>2022/10/24 11:43:53.622.cbproj,C:\Users\max\Documents\RAD Studio\Projects\PowerUSB.cbproj=D:\SourceCode\BCB\Zebra\PowerUSB v1.0\PowerUSB.cbproj</Transaction>
+    <Transaction>2022/10/24 13:37:32.272.h,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\HID\WinDDK7600.16385.1\inc\api\hidusage.h=</Transaction>
+    <Transaction>2022/10/24 13:37:36.040.h,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\HID\WinDDK7600.16385.1\inc\ddk\hidclass.h=</Transaction>
+    <Transaction>2022/10/24 13:37:43.040.h,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\HID\WinDDK7600.16385.1\inc\api\hidpi.h=</Transaction>
+    <Transaction>2022/10/24 13:45:30.512.h,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\vndrlist.h=</Transaction>
+    <Transaction>2022/10/24 13:45:37.303.h,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\usbioctl.h=</Transaction>
+    <Transaction>2022/10/24 13:45:44.127.h,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\usb100.h=</Transaction>
+    <Transaction>2022/10/25 11:56:23.814.cpp,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\Unit1.cpp=D:\SourceCode\BCB\Zebra\PowerUSB v1.0\MyThread.cpp</Transaction>
+    <Transaction>2022/10/25 11:56:23.814.h,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\Unit1.h=D:\SourceCode\BCB\Zebra\PowerUSB v1.0\MyThread.h</Transaction>
+    <Transaction>2022/10/25 13:42:17.533.cpp,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\MyThread.cpp=D:\SourceCode\BCB\Zebra\PowerUSB v1.0\MainThread.cpp</Transaction>
+    <Transaction>2022/10/25 13:42:17.533.h,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\MyThread.h=D:\SourceCode\BCB\Zebra\PowerUSB v1.0\MainThread.h</Transaction>
+    <Transaction>2022/10/26 15:23:57.354.cpp,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\USBDevConnectionInfo.cpp=</Transaction>
+    <Transaction>2022/10/26 15:24:32.313.cpp,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\USBDevConnectionInfo.cpp=</Transaction>
+    <Transaction>2022/10/27 08:01:24.277.h,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\HID\WinDDK7600.16385.1\inc\api\hidsdi.h=</Transaction>
+    <Transaction>2022/10/27 13:49:50.786.cpp,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\USBDevConnectionInfo.cpp=</Transaction>
+    <Transaction>2022/10/27 15:32:35.069.cpp,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\USBDevConnectionInfo.cpp=</Transaction>
+    <Transaction>2022/10/27 15:33:22.155.cpp,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\Unit1.cpp=D:\SourceCode\BCB\Zebra\PowerUSB v1.0\USBDisk.cpp</Transaction>
+    <Transaction>2022/10/27 15:33:22.155.h,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\Unit1.h=D:\SourceCode\BCB\Zebra\PowerUSB v1.0\USBDisk.h</Transaction>
+    <Transaction>2022/10/28 11:14:15.049.cpp,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\Unit1.cpp=D:\SourceCode\BCB\Zebra\PowerUSB v1.0\USBThread.cpp</Transaction>
+    <Transaction>2022/10/28 11:14:15.049.h,D:\SourceCode\BCB\Zebra\PowerUSB v1.0\Unit1.h=D:\SourceCode\BCB\Zebra\PowerUSB v1.0\USBThread.h</Transaction>
+  </Transactions>
+</BorlandProject>

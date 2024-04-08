@@ -1,0 +1,17 @@
+//---------------------------------------------------------------------------
+
+#ifndef USBDiskH
+#define USBDiskH
+
+#include "ConstantString.h"
+//---------------------------------------------------------------------------
+class cUSBDisk
+{
+	private:
+		AnsiString CheckDISKVolumelabel(String Disk);
+		char DiskWriteRead(String Disk);
+		bool CheckDiskName(String strName);
+	public:
+		void GetUSBDisk();
+};
+#endif

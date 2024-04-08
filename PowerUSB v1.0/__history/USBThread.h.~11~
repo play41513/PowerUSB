@@ -1,0 +1,28 @@
+//---------------------------------------------------------------------------
+
+#ifndef USBThreadH
+#define USBThreadH
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include "USBDisk.h"
+#include "ConstantString.h"
+//---------------------------------------------------------------------------
+class TUSBThread : public TThread
+{
+protected:
+	void __fastcall Execute();
+public:
+	__fastcall TUSBThread(bool CreateSuspended,INI_DESCRIPOR info,HWND hWnd);
+
+private:
+	cUSBDisk *mUSBDisk;
+	INI_DESCRIPOR INI_Desc;
+	INI_DESCRIPOR INI_DescTemp;
+	HWND mHwnd;
+	DWORD dwDiskPassCount;
+
+	INI_DESCRIPOR UpdateUSBDesc(INI_DESCRIPOR infoDesc , INI_DESCRIPOR tempDesc);
+	DWORD GetDiskPassCount();
+};
+//---------------------------------------------------------------------------
+#endif

@@ -1,0 +1,1160 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsToolWindow
+  ClientHeight = 583
+  ClientWidth = 658
+  Color = clWindow
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object plItem1: TPanel
+    Left = 0
+    Top = 0
+    Width = 658
+    Height = 585
+    Align = alTop
+    TabOrder = 0
+    object Panel8: TPanel
+      Left = 1
+      Top = 1
+      Width = 369
+      Height = 583
+      Align = alLeft
+      BevelOuter = bvNone
+      TabOrder = 0
+      ExplicitLeft = 8
+      ExplicitTop = 15
+      ExplicitHeight = 586
+      object ScrollBox1: TScrollBox
+        Left = 0
+        Top = 59
+        Width = 369
+        Height = 524
+        Align = alBottom
+        TabOrder = 0
+        ExplicitTop = 62
+        object Panel4: TPanel
+          Left = 0
+          Top = 480
+          Width = 365
+          Height = 40
+          Align = alTop
+          Color = clHighlightText
+          ParentBackground = False
+          TabOrder = 0
+          object Panel5: TPanel
+            Left = 1
+            Top = 1
+            Width = 32
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = '13.'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -17
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object plVoltageName13: TPanel
+            Left = 33
+            Top = 1
+            Width = 128
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = 'Port13'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+          end
+          object plItemVoltage13: TPanel
+            Left = 161
+            Top = 1
+            Width = 203
+            Height = 38
+            Align = alClient
+            BevelKind = bkFlat
+            BevelOuter = bvSpace
+            BevelWidth = 2
+            Color = clSkyBlue
+            ParentBackground = False
+            TabOrder = 2
+          end
+        end
+        object Panel6: TPanel
+          Left = 0
+          Top = 440
+          Width = 365
+          Height = 40
+          Align = alTop
+          Color = clHighlightText
+          ParentBackground = False
+          TabOrder = 1
+          object Panel7: TPanel
+            Left = 1
+            Top = 1
+            Width = 32
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = '12.'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -17
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object plVoltageName12: TPanel
+            Left = 33
+            Top = 1
+            Width = 128
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = 'Port12'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+          end
+          object plItemVoltage12: TPanel
+            Left = 161
+            Top = 1
+            Width = 203
+            Height = 38
+            Align = alClient
+            BevelKind = bkFlat
+            BevelOuter = bvSpace
+            BevelWidth = 2
+            Color = clSkyBlue
+            ParentBackground = False
+            TabOrder = 2
+          end
+        end
+        object Panel9: TPanel
+          Left = 0
+          Top = 400
+          Width = 365
+          Height = 40
+          Align = alTop
+          Color = clHighlightText
+          ParentBackground = False
+          TabOrder = 2
+          object Panel10: TPanel
+            Left = 1
+            Top = 1
+            Width = 32
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = '11.'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -17
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object plVoltageName11: TPanel
+            Left = 33
+            Top = 1
+            Width = 128
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = 'Port11'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+          end
+          object plItemVoltage11: TPanel
+            Left = 161
+            Top = 1
+            Width = 203
+            Height = 38
+            Align = alClient
+            BevelKind = bkFlat
+            BevelOuter = bvSpace
+            BevelWidth = 2
+            Color = clSkyBlue
+            ParentBackground = False
+            TabOrder = 2
+          end
+        end
+        object Panel12: TPanel
+          Left = 0
+          Top = 360
+          Width = 365
+          Height = 40
+          Align = alTop
+          Color = clHighlightText
+          ParentBackground = False
+          TabOrder = 3
+          object Panel13: TPanel
+            Left = 1
+            Top = 1
+            Width = 32
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = '10.'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -17
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object plVoltageName10: TPanel
+            Left = 33
+            Top = 1
+            Width = 128
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = 'Port10'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+          end
+          object plItemVoltage10: TPanel
+            Left = 161
+            Top = 1
+            Width = 203
+            Height = 38
+            Align = alClient
+            BevelKind = bkFlat
+            BevelOuter = bvSpace
+            BevelWidth = 2
+            Color = clSkyBlue
+            ParentBackground = False
+            TabOrder = 2
+          end
+        end
+        object Panel15: TPanel
+          Left = 0
+          Top = 320
+          Width = 365
+          Height = 40
+          Align = alTop
+          Color = clHighlightText
+          ParentBackground = False
+          TabOrder = 4
+          object Panel16: TPanel
+            Left = 1
+            Top = 1
+            Width = 32
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = '9.'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -17
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object plVoltageName9: TPanel
+            Left = 33
+            Top = 1
+            Width = 128
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = 'Port9'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+          end
+          object plItemVoltage9: TPanel
+            Left = 161
+            Top = 1
+            Width = 203
+            Height = 38
+            Align = alClient
+            BevelKind = bkFlat
+            BevelOuter = bvSpace
+            BevelWidth = 2
+            Color = clSkyBlue
+            ParentBackground = False
+            TabOrder = 2
+          end
+        end
+        object Panel18: TPanel
+          Left = 0
+          Top = 280
+          Width = 365
+          Height = 40
+          Align = alTop
+          Color = clHighlightText
+          ParentBackground = False
+          TabOrder = 5
+          object Panel19: TPanel
+            Left = 1
+            Top = 1
+            Width = 32
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = '8.'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -17
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object plVoltageName8: TPanel
+            Left = 33
+            Top = 1
+            Width = 128
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = 'Port8'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+          end
+          object plItemVoltage8: TPanel
+            Left = 161
+            Top = 1
+            Width = 203
+            Height = 38
+            Align = alClient
+            BevelKind = bkFlat
+            BevelOuter = bvSpace
+            BevelWidth = 2
+            Color = clSkyBlue
+            ParentBackground = False
+            TabOrder = 2
+          end
+        end
+        object Panel21: TPanel
+          Left = 0
+          Top = 240
+          Width = 365
+          Height = 40
+          Align = alTop
+          Color = clHighlightText
+          ParentBackground = False
+          TabOrder = 6
+          object Panel22: TPanel
+            Left = 1
+            Top = 1
+            Width = 32
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = '7.'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -17
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object plVoltageName7: TPanel
+            Left = 33
+            Top = 1
+            Width = 128
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = 'Port7'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+          end
+          object plItemVoltage7: TPanel
+            Left = 161
+            Top = 1
+            Width = 203
+            Height = 38
+            Align = alClient
+            BevelKind = bkFlat
+            BevelOuter = bvSpace
+            BevelWidth = 2
+            Color = clSkyBlue
+            ParentBackground = False
+            TabOrder = 2
+          end
+        end
+        object Panel24: TPanel
+          Left = 0
+          Top = 200
+          Width = 365
+          Height = 40
+          Align = alTop
+          Color = clHighlightText
+          ParentBackground = False
+          TabOrder = 7
+          object Panel25: TPanel
+            Left = 1
+            Top = 1
+            Width = 32
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = '6.'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -17
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object plVoltageName6: TPanel
+            Left = 33
+            Top = 1
+            Width = 128
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = 'Port6'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+          end
+          object plItemVoltage6: TPanel
+            Left = 161
+            Top = 1
+            Width = 203
+            Height = 38
+            Align = alClient
+            BevelKind = bkFlat
+            BevelOuter = bvSpace
+            BevelWidth = 2
+            Color = clSkyBlue
+            ParentBackground = False
+            TabOrder = 2
+          end
+        end
+        object Panel27: TPanel
+          Left = 0
+          Top = 160
+          Width = 365
+          Height = 40
+          Align = alTop
+          Color = clHighlightText
+          ParentBackground = False
+          TabOrder = 8
+          object Panel28: TPanel
+            Left = 1
+            Top = 1
+            Width = 32
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = '5.'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -17
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object plVoltageName5: TPanel
+            Left = 33
+            Top = 1
+            Width = 128
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = 'Port5'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+          end
+          object plItemVoltage5: TPanel
+            Left = 161
+            Top = 1
+            Width = 203
+            Height = 38
+            Align = alClient
+            BevelKind = bkFlat
+            BevelOuter = bvSpace
+            BevelWidth = 2
+            Color = clSkyBlue
+            ParentBackground = False
+            TabOrder = 2
+          end
+        end
+        object Panel30: TPanel
+          Left = 0
+          Top = 120
+          Width = 365
+          Height = 40
+          Align = alTop
+          Color = clHighlightText
+          ParentBackground = False
+          TabOrder = 9
+          object Panel31: TPanel
+            Left = 1
+            Top = 1
+            Width = 32
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = '4.'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -17
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object plVoltageName4: TPanel
+            Left = 33
+            Top = 1
+            Width = 128
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = 'Port4'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+          end
+          object plItemVoltage4: TPanel
+            Left = 161
+            Top = 1
+            Width = 203
+            Height = 38
+            Align = alClient
+            BevelKind = bkFlat
+            BevelOuter = bvSpace
+            BevelWidth = 2
+            Color = clSkyBlue
+            ParentBackground = False
+            TabOrder = 2
+          end
+        end
+        object Panel33: TPanel
+          Left = 0
+          Top = 80
+          Width = 365
+          Height = 40
+          Align = alTop
+          Color = clHighlightText
+          ParentBackground = False
+          TabOrder = 10
+          object Panel34: TPanel
+            Left = 1
+            Top = 1
+            Width = 32
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = '3.'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -17
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object plVoltageName3: TPanel
+            Left = 33
+            Top = 1
+            Width = 128
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = 'Port3'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+          end
+          object plItemVoltage3: TPanel
+            Left = 161
+            Top = 1
+            Width = 203
+            Height = 38
+            Align = alClient
+            BevelKind = bkFlat
+            BevelOuter = bvSpace
+            BevelWidth = 2
+            Color = clSkyBlue
+            ParentBackground = False
+            TabOrder = 2
+          end
+        end
+        object Panel36: TPanel
+          Left = 0
+          Top = 40
+          Width = 365
+          Height = 40
+          Align = alTop
+          Color = clHighlightText
+          ParentBackground = False
+          TabOrder = 11
+          object Panel37: TPanel
+            Left = 1
+            Top = 1
+            Width = 32
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = '2.'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -17
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object plVoltageName2: TPanel
+            Left = 33
+            Top = 1
+            Width = 128
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = 'Port2'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+          end
+          object plItemVoltage2: TPanel
+            Left = 161
+            Top = 1
+            Width = 203
+            Height = 38
+            Align = alClient
+            BevelKind = bkFlat
+            BevelOuter = bvSpace
+            BevelWidth = 2
+            Color = clSkyBlue
+            ParentBackground = False
+            TabOrder = 2
+          end
+        end
+        object Panel39: TPanel
+          Left = 0
+          Top = 0
+          Width = 365
+          Height = 40
+          Align = alTop
+          Color = clHighlightText
+          ParentBackground = False
+          TabOrder = 12
+          object Panel40: TPanel
+            Left = 1
+            Top = 1
+            Width = 32
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = '1.'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -17
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object plVoltageName1: TPanel
+            Left = 33
+            Top = 1
+            Width = 128
+            Height = 38
+            Align = alLeft
+            BevelOuter = bvNone
+            Caption = 'Port1'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Microsoft YaHei UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+          end
+          object plItemVoltage1: TPanel
+            Left = 161
+            Top = 1
+            Width = 203
+            Height = 38
+            Align = alClient
+            BevelKind = bkFlat
+            BevelOuter = bvSpace
+            BevelWidth = 2
+            Color = clSkyBlue
+            ParentBackground = False
+            TabOrder = 2
+          end
+        end
+      end
+      object Panel2: TPanel
+        Left = 0
+        Top = 32
+        Width = 369
+        Height = 25
+        Align = alTop
+        BevelOuter = bvNone
+        Color = clHighlightText
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = '@Microsoft JhengHei UI'
+        Font.Style = [fsBold]
+        ParentBackground = False
+        ParentFont = False
+        TabOrder = 1
+        object Panel14: TPanel
+          Left = 54
+          Top = 3
+          Width = 251
+          Height = 4
+          BevelOuter = bvSpace
+          Color = clGrayText
+          ParentBackground = False
+          TabOrder = 0
+        end
+      end
+      object Panel11: TPanel
+        Left = 0
+        Top = 0
+        Width = 369
+        Height = 32
+        Align = alTop
+        BevelOuter = bvNone
+        Caption = ' PoweUSB Voltage'
+        Color = clHighlightText
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -19
+        Font.Name = '@Microsoft JhengHei UI'
+        Font.Style = [fsBold]
+        ParentBackground = False
+        ParentFont = False
+        TabOrder = 2
+      end
+    end
+    object Panel20: TPanel
+      Left = 370
+      Top = 1
+      Width = 295
+      Height = 583
+      Align = alLeft
+      BevelOuter = bvNone
+      Color = clHighlightText
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = '@Microsoft JhengHei UI'
+      Font.Style = []
+      ParentBackground = False
+      ParentFont = False
+      TabOrder = 1
+      ExplicitHeight = 559
+      object Panel3: TPanel
+        Left = 0
+        Top = 0
+        Width = 295
+        Height = 32
+        Align = alTop
+        BevelOuter = bvNone
+        Caption = 'USB Disk'
+        Color = clHighlightText
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -19
+        Font.Name = '@Microsoft JhengHei UI'
+        Font.Style = [fsBold]
+        ParentBackground = False
+        ParentFont = False
+        TabOrder = 0
+        ExplicitLeft = 6
+      end
+      object Panel23: TPanel
+        Left = 0
+        Top = 32
+        Width = 295
+        Height = 25
+        Align = alTop
+        BevelOuter = bvNone
+        Color = clHighlightText
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = '@Microsoft JhengHei UI'
+        Font.Style = [fsBold]
+        ParentBackground = False
+        ParentFont = False
+        TabOrder = 1
+        ExplicitLeft = 3
+        ExplicitTop = 38
+        ExplicitWidth = 223
+        object Panel26: TPanel
+          Left = 51
+          Top = 6
+          Width = 201
+          Height = 4
+          BevelOuter = bvSpace
+          Color = clGrayText
+          ParentBackground = False
+          TabOrder = 0
+        end
+      end
+      object ScrollBox2: TScrollBox
+        Left = 17
+        Top = 63
+        Width = 257
+        Height = 269
+        Color = clBtnHighlight
+        ParentColor = False
+        TabOrder = 2
+        object plDisk1: TPanel
+          Left = 6
+          Top = 9
+          Width = 121
+          Height = 33
+          BevelKind = bkFlat
+          BevelOuter = bvSpace
+          BevelWidth = 2
+          Caption = 'DEVICE01'
+          Color = clCream
+          ParentBackground = False
+          TabOrder = 0
+        end
+        object plDisk2: TPanel
+          Left = 129
+          Top = 9
+          Width = 121
+          Height = 33
+          BevelKind = bkFlat
+          BevelOuter = bvSpace
+          BevelWidth = 2
+          Caption = 'DEVICE02'
+          Color = clCream
+          ParentBackground = False
+          TabOrder = 1
+        end
+        object plDisk3: TPanel
+          Left = 6
+          Top = 48
+          Width = 121
+          Height = 33
+          BevelKind = bkFlat
+          BevelOuter = bvSpace
+          BevelWidth = 2
+          Caption = 'DEVICE03'
+          Color = clCream
+          ParentBackground = False
+          TabOrder = 2
+        end
+        object plDisk4: TPanel
+          Left = 129
+          Top = 48
+          Width = 121
+          Height = 33
+          BevelKind = bkFlat
+          BevelOuter = bvSpace
+          BevelWidth = 2
+          Caption = 'DEVICE04'
+          Color = clCream
+          ParentBackground = False
+          TabOrder = 3
+        end
+        object plDisk5: TPanel
+          Left = 6
+          Top = 85
+          Width = 121
+          Height = 33
+          BevelKind = bkFlat
+          BevelOuter = bvSpace
+          BevelWidth = 2
+          Caption = 'DEVICE05'
+          Color = clCream
+          ParentBackground = False
+          TabOrder = 4
+        end
+        object plDisk6: TPanel
+          Left = 129
+          Top = 85
+          Width = 121
+          Height = 33
+          BevelKind = bkFlat
+          BevelOuter = bvSpace
+          BevelWidth = 2
+          Caption = 'DEVICE06'
+          Color = clCream
+          ParentBackground = False
+          TabOrder = 5
+        end
+        object plDisk7: TPanel
+          Left = 6
+          Top = 122
+          Width = 121
+          Height = 33
+          BevelKind = bkFlat
+          BevelOuter = bvSpace
+          BevelWidth = 2
+          Caption = 'DEVICE07'
+          Color = clCream
+          ParentBackground = False
+          TabOrder = 6
+        end
+        object plDisk8: TPanel
+          Left = 129
+          Top = 122
+          Width = 121
+          Height = 33
+          BevelKind = bkFlat
+          BevelOuter = bvSpace
+          BevelWidth = 2
+          Caption = 'DEVICE08'
+          Color = clCream
+          ParentBackground = False
+          TabOrder = 7
+        end
+        object plDisk9: TPanel
+          Left = 6
+          Top = 158
+          Width = 121
+          Height = 33
+          BevelKind = bkFlat
+          BevelOuter = bvSpace
+          BevelWidth = 2
+          Caption = 'DEVICE09'
+          Color = clCream
+          ParentBackground = False
+          TabOrder = 8
+        end
+        object plDisk10: TPanel
+          Left = 129
+          Top = 158
+          Width = 121
+          Height = 33
+          BevelKind = bkFlat
+          BevelOuter = bvSpace
+          BevelWidth = 2
+          Caption = 'DEVICE10'
+          Color = clCream
+          ParentBackground = False
+          TabOrder = 9
+        end
+        object plDisk11: TPanel
+          Left = 6
+          Top = 194
+          Width = 121
+          Height = 33
+          BevelKind = bkFlat
+          BevelOuter = bvSpace
+          BevelWidth = 2
+          Caption = 'DEVICE11'
+          Color = clCream
+          ParentBackground = False
+          TabOrder = 10
+        end
+        object plDisk12: TPanel
+          Left = 129
+          Top = 194
+          Width = 121
+          Height = 33
+          BevelKind = bkFlat
+          BevelOuter = bvSpace
+          BevelWidth = 2
+          Caption = 'DEVICE12'
+          Color = clCream
+          ParentBackground = False
+          TabOrder = 11
+        end
+        object plDisk13: TPanel
+          Left = 6
+          Top = 229
+          Width = 121
+          Height = 33
+          BevelKind = bkFlat
+          BevelOuter = bvSpace
+          BevelWidth = 2
+          Caption = 'DEVICE13'
+          Color = clCream
+          ParentBackground = False
+          TabOrder = 12
+        end
+        object plDisk14: TPanel
+          Left = 129
+          Top = 229
+          Width = 121
+          Height = 33
+          BevelKind = bkFlat
+          BevelOuter = bvSpace
+          BevelWidth = 2
+          Caption = 'DEVICE14'
+          Color = clCream
+          ParentBackground = False
+          TabOrder = 13
+        end
+      end
+      object plStatus: TPanel
+        Left = 0
+        Top = 333
+        Width = 295
+        Height = 250
+        Align = alBottom
+        TabOrder = 3
+        ExplicitLeft = 136
+        ExplicitTop = 314
+        object Panel1: TPanel
+          Left = 1
+          Top = 1
+          Width = 293
+          Height = 42
+          Align = alTop
+          BevelOuter = bvNone
+          Caption = 'Test Result'
+          Color = clHighlightText
+          Font.Charset = ANSI_CHARSET
+          Font.Color = clBlue
+          Font.Height = -24
+          Font.Name = '@Microsoft JhengHei UI'
+          Font.Style = [fsBold]
+          ParentBackground = False
+          ParentFont = False
+          TabOrder = 0
+        end
+        object Panel29: TPanel
+          Left = 1
+          Top = 87
+          Width = 293
+          Height = 30
+          Align = alTop
+          Alignment = taLeftJustify
+          BevelOuter = bvNone
+          Caption = '     Disk :'
+          Font.Charset = ANSI_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = '@Microsoft JhengHei UI'
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 1
+          ExplicitLeft = 3
+          ExplicitTop = 132
+          object Panel32: TPanel
+            Left = 112
+            Top = 0
+            Width = 181
+            Height = 30
+            Align = alRight
+            BevelOuter = bvNone
+            Caption = 'Result'
+            TabOrder = 0
+          end
+        end
+        object Panel35: TPanel
+          Left = 1
+          Top = 43
+          Width = 293
+          Height = 30
+          Align = alTop
+          Alignment = taLeftJustify
+          BevelOuter = bvNone
+          Caption = '     Voltage :'
+          Font.Charset = ANSI_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = '@Microsoft JhengHei UI'
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 2
+          ExplicitLeft = -7
+          ExplicitTop = 37
+          object Panel17: TPanel
+            Left = 112
+            Top = 0
+            Width = 181
+            Height = 30
+            Align = alRight
+            BevelOuter = bvNone
+            Caption = 'Result'
+            TabOrder = 0
+          end
+        end
+        object Panel41: TPanel
+          Left = 1
+          Top = 73
+          Width = 293
+          Height = 14
+          Align = alTop
+          BevelOuter = bvNone
+          TabOrder = 3
+          ExplicitTop = 43
+        end
+      end
+    end
+  end
+end

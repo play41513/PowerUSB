@@ -1,0 +1,22 @@
+//---------------------------------------------------------------------------
+
+#ifndef USBThreadH
+#define USBThreadH
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include "USBDisk.h"
+//---------------------------------------------------------------------------
+class TUSBThread : public TThread
+{
+protected:
+	void __fastcall Execute();
+public:
+	__fastcall TUSBThread(bool CreateSuspended,INI_DESCRIPOR info,HWND hWnd);
+
+private:
+	cUSBDisk *mUSBDisk;
+	INI_DESCRIPOR INI_Desc;
+	HWND mHwnd;
+};
+//---------------------------------------------------------------------------
+#endif
